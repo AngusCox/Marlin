@@ -73,7 +73,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Sovol, SV-01)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Angus Cox)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -492,9 +492,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Sovol SV-01
-  #define DEFAULT_Kp 29.76
-  #define DEFAULT_Ki 2.93
-  #define DEFAULT_Kd 75.58
+  #define DEFAULT_Kp 18.28
+  #define DEFAULT_Ki 1.35
+  #define DEFAULT_Kd 61.77
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -1506,12 +1506,12 @@
 
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 190
-#define PREHEAT_1_TEMP_BED     45
+#define PREHEAT_1_TEMP_HOTEND 210
+#define PREHEAT_1_TEMP_BED     55
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
-#define PREHEAT_2_LABEL       "ABS"
-#define PREHEAT_2_TEMP_HOTEND 240
+#define PREHEAT_2_LABEL       "FLEX"
+#define PREHEAT_2_TEMP_HOTEND 215
 #define PREHEAT_2_TEMP_BED     70
 #define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
 
