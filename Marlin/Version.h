@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "AngusCox build 1.0"
+#define SHORT_BUILD_VERSION "Angus Cox build 1.0"
 
 /**
  * Verbose version identifier which should contain a reference to the location
@@ -46,7 +46,7 @@
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-#define MACHINE_NAME "iSOVOL SV01"
+#define MACHINE_NAME "SOVOL SV01"
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
