@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "Angus Cox build 1.0"
+#define SHORT_BUILD_VERSION "Angus Cox build 1.1"
 
 /**
  * Verbose version identifier which should contain a reference to the location
