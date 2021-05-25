@@ -68,3 +68,12 @@ const unsigned char status_logo_bmp[] PROGMEM = {
   B00000000,B00000000,B00000000,B00000000,
   B00000000,B00000000,B00000000,B00000000
 };
+
+//
+// Use default bitmaps
+//
+
+#define STATUS_HOTEND_ANIM
+#define STATUS_BED_ANIM
+#define STATUS_HEATERS_X 42
+#define STATUS_BED_X 70
